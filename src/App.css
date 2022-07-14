@@ -1,0 +1,223 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+* {
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 700;
+  font-weight: bold;
+}
+h2 {
+  font-size: 1.3rem;
+  margin: 0;
+  font-weight: 700;
+  color: #7e8299;
+}
+.smallLineHeight {
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.mediumMarginBottom {
+  margin-bottom: 2rem;
+}
+
+.smallMarginRight {
+  margin-right: 1rem;
+}
+
+.mediumMarginRight {
+  margin-right: 2rem;
+}
+
+.mediumMarginLeft {
+  margin-left: 2rem;
+}
+
+.smallMarginLeft {
+  margin-left: 0.5rem;
+}
+
+.columnFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexJustifyContentEnd {
+  justify-content: end;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.alignItemsEnd {
+  align-items: flex-end;
+}
+
+.flexJustifyContentCenter {
+  justify-content: center;
+}
+
+.rowFlex {
+  display: flex;
+}
+
+.sideBarDimension {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+.topbarLogoStyle {
+  padding: 1rem;
+}
+
+hr.solid {
+  border-top: 2px solid #f3f6f9;
+}
+
+.wholeWidth {
+  width: 100%;
+}
+
+.topBarLabel {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.topBarSelector {
+  background-color: #1bc5bd;
+}
+
+.btn {
+  display: block;
+  height: 2.3rem;
+  width: 2.3rem;
+  border-radius: 10%;
+  background-color: #f6ca65;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.dateBox {
+  height: 1.1rem;
+  padding: 0.5rem;
+  width: 7rem;
+  background-color: #1bc5bd;
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  color-scheme: dark;
+}
+
+/*
+Custom Select
+*/
+.custom-select-container {
+  display: inline-block;
+  min-width: 140px;
+  width: 7rem;
+  position: relative;
+  color: white;
+  margin-left: 1rem;
+}
+
+.selected-text {
+  background-color: #1bc5bd;
+  padding: 7px 10px;
+  border-bottom: 1px solid #37b0b0;
+  border-radius: 0.4rem;
+}
+
+.selected-text::after {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 14px;
+  border: 7px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+.selected-text.active::after {
+  top: 8px;
+  border-color: transparent transparent #fff transparent;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.select-options {
+  position: absolute;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  padding: 6px 20px;
+  background: #1bc5bd;
+  border-bottom: 1px solid #1bc5bd;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #1bc5bd;
+  color: #ffffff;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.buttonTopSelector {
+  background-color: #005b96;
+  height: 2.1rem;
+  color: white;
+  font-weight: 700;
+  width: 8rem;
+  border-radius: 0.4rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
